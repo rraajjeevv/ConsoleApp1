@@ -14,7 +14,7 @@ namespace ConsoleApp1
             //Console.WriteLine("Hello World!");
             try
             {
-                //assign filename
+                //assign filename manually
                 string strFileName = strFoleder + "3GB_Test.txt";
 
                 using (StreamWriter sW=File.CreateText(strFileName))
